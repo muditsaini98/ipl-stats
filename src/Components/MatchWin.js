@@ -134,7 +134,7 @@ const MatchWin = () => {
                 labels: ["Rajasthan Royals", "Deccan Chargers", "Kochi Tuskers Kerala", "Pune Warriors", "Sunrisers Hyderabad", "Mumbai Indians", "Royal Challengers Bangalore", "Rising Pune Supergiant", "Gujarat Lions", "Kolkata Knight Riders", "Kings XI Punjab", "Delhi Daredevils", "Chennai Super Kings"],
                 datasets: [
                     {
-                        label: "Match Wines",
+                        label: "Match Wins",
                         borderWidth: 1,
                         backgroundColor: color,
                         data: [ arrRR, arrDC, arrKTK, arrPW, arrSH, arrMI, arrRCB, arrRPS, arrGL, arrKKR, arrKP, arrDD, arrCSK],
