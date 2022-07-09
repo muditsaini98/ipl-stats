@@ -14,8 +14,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/seasons" element={<Seasons />} />
-          <Route path="/teams" element={<Teams />} />
+          <Route path="/ipl-stats/seasons" element={<Seasons />} />
+          <Route path="/ipl-stats/teams" element={<Teams />} />
         </Routes>
       </Router>
     </div>

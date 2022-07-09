@@ -6,12 +6,12 @@ const NavBarnav = () => {
     <div>
         <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="/">IPL Stats</Navbar.Brand>
+          <Navbar.Brand href="/ipl-stats/">IPL Stats</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/teams">Stats By Team</Nav.Link>
-              <Nav.Link href="/seasons">Stats By Season</Nav.Link>
+              <Nav.Link href="/ipl-stats/teams">Stats By Team</Nav.Link>
+              <Nav.Link href="/ipl-stats/seasons">Stats By Season</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
