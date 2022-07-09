@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ipl-stats/static/css/main.ff79ec8e.css",
-    "main.js": "/ipl-stats/static/js/main.24dfc662.js",
+    "main.js": "/ipl-stats/static/js/main.717d7a55.js",
     "static/js/787.6d1d8dd3.chunk.js": "/ipl-stats/static/js/787.6d1d8dd3.chunk.js",
     "index.html": "/ipl-stats/index.html",
     "main.ff79ec8e.css.map": "/ipl-stats/static/css/main.ff79ec8e.css.map",
-    "main.24dfc662.js.map": "/ipl-stats/static/js/main.24dfc662.js.map",
+    "main.717d7a55.js.map": "/ipl-stats/static/js/main.717d7a55.js.map",
     "787.6d1d8dd3.chunk.js.map": "/ipl-stats/static/js/787.6d1d8dd3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff79ec8e.css",
-    "static/js/main.24dfc662.js"
+    "static/js/main.717d7a55.js"
   ]
 }
