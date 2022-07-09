@@ -117,10 +117,8 @@ const MatchPlayed = () => {
     const arrPW = arr13.length
 
     let color = `rgba(${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)}, ${Math.random()})`
-    console.log(color)
 
     let color2 = `rgb(${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)})`
-    console.log(`#${Math.floor(100000 + Math.random() * 900000)}`)
     
 
     return (

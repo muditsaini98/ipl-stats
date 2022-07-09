@@ -125,12 +125,7 @@ const MatchWin = () => {
     }
 
     let color = `rgb(${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)})`
-    console.log(color)
-
-    let color2 = `rgb(${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)}, ${ Math.floor(Math.random()*255)})`
-    console.log(`#${Math.floor(100000 + Math.random() * 900000)}`)
     
-
     return (
         <Line
             options={options}
@@ -141,7 +136,6 @@ const MatchWin = () => {
                     {
                         label: "Match Wines",
                         borderWidth: 1,
-                        // borderColor: color2,
                         backgroundColor: color,
                         data: [ arrRR, arrDC, arrKTK, arrPW, arrSH, arrMI, arrRCB, arrRPS, arrGL, arrKKR, arrKP, arrDD, arrCSK],
                     },

@@ -2,7 +2,7 @@ import "./App.css";
 import NavBarnav from "./Components/NavBarnav";
 import Home from "./Components/Home";
 import Seasons from "./Components/Seasons";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Teams from "./Components/Teams";
 
@@ -11,13 +11,13 @@ function App() {
   return (
     <div className="App">
       <NavBarnav />
-      <Router>
+      {/* <Router> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/ipl-stats/seasons" element={<Seasons />} />
-          <Route path="/ipl-stats/teams" element={<Teams />} />
+          <Route path="/seasons" element={<Seasons />} />
+          <Route path="/teams" element={<Teams />} />
         </Routes>
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }
