@@ -1,3 +1,16 @@
+# liberaries/framework used in the project
+
+React, React Bootstrap, Bootstrap, chart.js, "react-chartjs-2
+
+# Bouns points
+
+I create the web-app in ReactJS.
+I make it mobile responsive.
+Used GitHub for Storing the code.
+Hosted the code on Github pages.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
